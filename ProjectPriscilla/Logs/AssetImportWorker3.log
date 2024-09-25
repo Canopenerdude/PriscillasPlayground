@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.37f1 (340ba89e4c23) revision 3410856'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Enterprise' Language: 'en' Physical Memory: 32486 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16305 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity 2022.3.37f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/AJTeeple/Documents/GitHub/PriscillasPlayground/ProjectPriscilla
+C:/Users/xiont/Documents/GitHub/PriscillasPlayground/ProjectPriscilla
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-51021
-Successfully changed project path to: C:/Users/AJTeeple/Documents/GitHub/PriscillasPlayground/ProjectPriscilla
-C:/Users/AJTeeple/Documents/GitHub/PriscillasPlayground/ProjectPriscilla
+53786
+Successfully changed project path to: C:/Users/xiont/Documents/GitHub/PriscillasPlayground/ProjectPriscilla
+C:/Users/xiont/Documents/GitHub/PriscillasPlayground/ProjectPriscilla
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,67 @@ C:/Users/AJTeeple/Documents/GitHub/PriscillasPlayground/ProjectPriscilla
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27288] Host "[IP] 172.18.51.26 [Port] 0 [Flags] 2 [Guid] 1918351166 [EditorId] 1918351166 [Version] 1048832 [Id] WindowsEditor(7,HSL315-17) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [2984] Host "[IP] 192.168.86.51 [Port] 0 [Flags] 2 [Guid] 1817292892 [EditorId] 1817292892 [Version] 1048832 [Id] WindowsEditor(7,Alex-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [27288] Host "[IP] 172.18.51.26 [Port] 0 [Flags] 2 [Guid] 1918351166 [EditorId] 1918351166 [Version] 1048832 [Id] WindowsEditor(7,HSL315-17) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2984] Host "[IP] 192.168.86.51 [Port] 0 [Flags] 2 [Guid] 1817292892 [EditorId] 1817292892 [Version] 1048832 [Id] WindowsEditor(7,Alex-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-Refreshing native plugins compatible for Editor in 6.97 ms, found 3 plugins.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 12.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.37f1 (340ba89e4c23)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.37f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/AJTeeple/Documents/GitHub/PriscillasPlayground/ProjectPriscilla/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/xiont/Documents/GitHub/PriscillasPlayground/ProjectPriscilla/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
     Vendor:   NVIDIA
-    VRAM:     10053 MB
-    Driver:   32.0.15.5612
+    VRAM:     8024 MB
+    Driver:   32.0.15.6070
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity 2022.3.37f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity 2022.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity 2022.3.37f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity 2022.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002621 seconds.
-- Loaded All Assemblies, in  0.217 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015715 seconds.
+- Loaded All Assemblies, in  0.518 seconds
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.161 seconds
-Domain Reload Profiling: 378ms
-	BeginReloadAssembly (77ms)
+- Finished resetting the current domain, in  0.353 seconds
+Domain Reload Profiling: 868ms
+	BeginReloadAssembly (163ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (83ms)
-		LoadAssemblies (73ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (196ms)
+		LoadAssemblies (159ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (81ms)
-			TypeCache.Refresh (80ms)
-				TypeCache.ScanAssembly (73ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (192ms)
+				TypeCache.ScanAssembly (175ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (162ms)
+	FinalizeReload (353ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (126ms)
+		SetupLoadedEditorAssemblies (276ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (86ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,346 +117,340 @@ Domain Reload Profiling: 378ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.308 seconds
-Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.085 seconds
+Refreshing native plugins compatible for Editor in 5.50 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.204 seconds
-Domain Reload Profiling: 510ms
-	BeginReloadAssembly (95ms)
+- Finished resetting the current domain, in  0.865 seconds
+Domain Reload Profiling: 1940ms
+	BeginReloadAssembly (218ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (156ms)
-		LoadAssemblies (156ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (109ms)
+	LoadAllAssembliesAndSetupDomain (678ms)
+		LoadAssemblies (538ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (53ms)
-			TypeCache.Refresh (51ms)
-				TypeCache.ScanAssembly (44ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (204ms)
+		AnalyzeDomain (274ms)
+			TypeCache.Refresh (245ms)
+				TypeCache.ScanAssembly (215ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (866ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (130ms)
+		SetupLoadedEditorAssemblies (660ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (32ms)
-			ProcessInitializeOnLoadAttributes (78ms)
-			ProcessInitializeOnLoadMethodAttributes (12ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (510ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.79 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 5.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (347.5 KB). Loaded Objects now: 3661.
-Memory consumption went from 126.6 MB to 126.2 MB.
-Total: 3.203000 ms (FindLiveObjects: 0.188400 ms CreateObjectMapping: 0.093500 ms MarkObjects: 2.758700 ms  DeleteObjects: 0.161200 ms)
+Unloading 37 unused Assets / (347.1 KB). Loaded Objects now: 3667.
+Memory consumption went from 135.6 MB to 135.3 MB.
+Total: 7.801800 ms (FindLiveObjects: 0.292400 ms CreateObjectMapping: 0.275100 ms MarkObjects: 6.871100 ms  DeleteObjects: 0.362100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2306219.763177 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Ext_B.prefab
-  artifactKey: Guid(4415536e331f8864c8582faaf82f5fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Ext_B.prefab using Guid(4415536e331f8864c8582faaf82f5fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '4fe88768b98d6e75309d00bc146e0958') in 0.352646 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Deco_WindowGlass_B.prefab
-  artifactKey: Guid(475b1b6b7e2809143be41cfe67240ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Deco_WindowGlass_B.prefab using Guid(475b1b6b7e2809143be41cfe67240ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '8195664591e522f2e6b37ea8b8eb9178') in 0.158828 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Deco_Handrail1_Mid_A_DM.prefab
-  artifactKey: Guid(8c6ce316555e68a41a558dece7d76b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Deco_Handrail1_Mid_A_DM.prefab using Guid(8c6ce316555e68a41a558dece7d76b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '96aaf6cdda8e0d5f00be97cf435b5b31') in 0.040317 seconds
+  Time since last request: 23371.133372 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Deco_Handrail1_Cap_A.prefab
+  artifactKey: Guid(19c68d79f0c9834478587f0dc3a6d944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Deco_Handrail1_Cap_A.prefab using Guid(19c68d79f0c9834478587f0dc3a6d944) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ead129f6b1b06b699c7d62c9dd8bbf99') in 1.022968 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Door_B.prefab
-  artifactKey: Guid(4ba8e211073bd4c4883585b581504113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Door_B.prefab using Guid(4ba8e211073bd4c4883585b581504113) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'f72bfe11bc93d4637772e7c468c664a4') in 0.057290 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 230.237942 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Base_Cor_B.prefab
-  artifactKey: Guid(ab0ff8ba19dca22489082027357b6ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Base_Cor_B.prefab using Guid(ab0ff8ba19dca22489082027357b6ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'df01dc5cac023f16ead150f019e3303f') in 0.109722 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Wall_Mid_B.prefab
-  artifactKey: Guid(2f706c57176f4c74b9f762c862b60847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Wall_Mid_B.prefab using Guid(2f706c57176f4c74b9f762c862b60847) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'dd4537df522f6f8c6f510240cc19a7bd') in 0.133852 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_RoofPiece_A.prefab
-  artifactKey: Guid(482a6ff30818ebf4890f53b9a90c7e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_RoofPiece_A.prefab using Guid(482a6ff30818ebf4890f53b9a90c7e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '021f1fc3581df2108a331bb34ffca21e') in 0.056953 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_Handrail1_Mid_A.prefab
-  artifactKey: Guid(9b5083471b3ef954a9643ff70f6fa3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_Handrail1_Mid_A.prefab using Guid(9b5083471b3ef954a9643ff70f6fa3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '5ba676f1ea67d9c9e21cb26ce8cbdf8d') in 0.029324 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_RoofPiece_C.prefab
-  artifactKey: Guid(3d04a236527d27045b4b6ce3b2a7b0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_RoofPiece_C.prefab using Guid(3d04a236527d27045b4b6ce3b2a7b0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '197e4d064d12f785050911c2957da1f7') in 0.027692 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_Column_Mid_A.prefab
-  artifactKey: Guid(0763e8f6d4dbc2a4a8ad9b0f340e81fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_Column_Mid_A.prefab using Guid(0763e8f6d4dbc2a4a8ad9b0f340e81fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '13e3b13df6f9c40b63453390e425a403') in 0.030920 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Door_A.prefab
-  artifactKey: Guid(e891df2b218bdaf45ad012d0e25fb64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Door_A.prefab using Guid(e891df2b218bdaf45ad012d0e25fb64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '9ffa27efafd5ed70fb83c85068c9aa28') in 0.027218 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_Handrail1_Cor_B.prefab
-  artifactKey: Guid(6c76f7e8b93342a4b93a121c3afd2823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_Handrail1_Cor_B.prefab using Guid(6c76f7e8b93342a4b93a121c3afd2823) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '83e6034ddcae4c3271816d0999836c55') in 0.028140 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_WindowGlass_A.prefab
-  artifactKey: Guid(33d2396704f502c40bd674b135e08461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_WindowGlass_A.prefab using Guid(33d2396704f502c40bd674b135e08461) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'a8c68c757babb7071275a8361267613f') in 0.017770 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Top_Cor_B.prefab
-  artifactKey: Guid(bd79f7f83a9f64c41abd4b5203ff3971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Top_Cor_B.prefab using Guid(bd79f7f83a9f64c41abd4b5203ff3971) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '9dc8b79661852f15d477f9476f394db6') in 0.030973 seconds
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Base_Mid_A.prefab
+  artifactKey: Guid(eb76103868aa7dc4c8e39613a5835fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Base_Mid_A.prefab using Guid(eb76103868aa7dc4c8e39613a5835fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd24510346d494951256d16e0c02343af') in 0.224562 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Base_Stairs_A.prefab
+  artifactKey: Guid(35a756c42404b894ea8cc2e61487fabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Base_Stairs_A.prefab using Guid(35a756c42404b894ea8cc2e61487fabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a581c1bc2ef79b51990ab3d7471ce3d5') in 0.078769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Wall_Int_A.prefab
+  artifactKey: Guid(b3697fca2cda39f418b6b897bcf90cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Wall_Int_A.prefab using Guid(b3697fca2cda39f418b6b897bcf90cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bf21ed7606ba9b0a3a48299fea8b8c8c') in 0.073564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Door_B.prefab
+  artifactKey: Guid(4ba8e211073bd4c4883585b581504113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa1/Villa1_Door_B.prefab using Guid(4ba8e211073bd4c4883585b581504113) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '73348634cc234da28f2fec1da2aceee1') in 0.049318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 22.920975 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Base_Stairs_A.prefab
+  artifactKey: Guid(b42e93feb18107a4d80243a8cccc2674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Base_Stairs_A.prefab using Guid(b42e93feb18107a4d80243a8cccc2674) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '804f358d85ebed8cda9bd521de083a70') in 0.078587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_Handrail1_Cap_A.prefab
+  artifactKey: Guid(0b08d4e9832f0c04198e757fa9771186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_Handrail1_Cap_A.prefab using Guid(0b08d4e9832f0c04198e757fa9771186) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0d6048875668b6ce12a960bb78bd710f') in 0.090063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_Column_Base_A.prefab
+  artifactKey: Guid(afdad0efc675a5f4a88b20acb7b88dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_Column_Base_A.prefab using Guid(afdad0efc675a5f4a88b20acb7b88dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '442c897a6d31649ab448a400758014cb') in 0.076856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Wall_Int_B.prefab
+  artifactKey: Guid(5d4f7bb6ba9a6da4cab8ff0db61e4e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Wall_Int_B.prefab using Guid(5d4f7bb6ba9a6da4cab8ff0db61e4e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '895db62d984cff271f7e11b16ad0164f') in 0.080434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
   path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_Handrail1_Mid_A_DM.prefab
   artifactKey: Guid(f0aa7ac9b71e22c489e6601be5470a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_Handrail1_Mid_A_DM.prefab using Guid(f0aa7ac9b71e22c489e6601be5470a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'c4d6d606238606515d18d46293a10df8') in 0.029758 seconds
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_Handrail1_Mid_A_DM.prefab using Guid(f0aa7ac9b71e22c489e6601be5470a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b7e4a20446009582d7615ce07380de59') in 0.080088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 16.867071 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/IndBuilding1/IndBuilding1_Deco_Column_Top.prefab
+  artifactKey: Guid(112948aafeb21724f8d6f18be1b0127c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/IndBuilding1/IndBuilding1_Deco_Column_Top.prefab using Guid(112948aafeb21724f8d6f18be1b0127c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fd0df24224d15cd81c8a630c35686775') in 0.086987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/IndBuilding1/Indbuilding1_Door_A.prefab
+  artifactKey: Guid(1ba84d4b2929a2b4eb599316f738c0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/IndBuilding1/Indbuilding1_Door_A.prefab using Guid(1ba84d4b2929a2b4eb599316f738c0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '29cd2b446f3757bbcad8a7725b0b6360') in 0.076940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/IndBuilding1/IndBuilding1_Deco_IntColumn_Top.prefab
+  artifactKey: Guid(c77c9941a488b844f81552ee194644cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/IndBuilding1/IndBuilding1_Deco_IntColumn_Top.prefab using Guid(c77c9941a488b844f81552ee194644cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a605f92c5d1d7579020d8e9a508d5839') in 0.062686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/IndBuilding1/IndBuilding1_Wall_Mid_B.prefab
+  artifactKey: Guid(0e2897fcb74ccda48aee1804d6464e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/IndBuilding1/IndBuilding1_Wall_Mid_B.prefab using Guid(0e2897fcb74ccda48aee1804d6464e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '32539c69b4ffd7988b6cf3fa7eb5ad7a') in 0.050561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 5.999997 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Churches/Church1_Door_B.prefab
+  artifactKey: Guid(3ed882138e89c274888d1f686dc75f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Churches/Church1_Door_B.prefab using Guid(3ed882138e89c274888d1f686dc75f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'baa761bf157f5b900ddeeb2caef4ec4e') in 0.074447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.435710 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Cabins/Cabin2_Deco_WindowGlass_A.prefab
+  artifactKey: Guid(773c221436526d44f8af6a31cd3c49ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Cabins/Cabin2_Deco_WindowGlass_A.prefab using Guid(773c221436526d44f8af6a31cd3c49ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '57279f4aa2b8abb7b25f3bc671f92206') in 0.053994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Cabins/Outhouse_A.prefab
+  artifactKey: Guid(42f9613ec0908c044b86298687d21ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Cabins/Outhouse_A.prefab using Guid(42f9613ec0908c044b86298687d21ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fdf4244da9ff1fe957a6f4cebf578dce') in 0.071368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 13.087562 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_Deco_WindowGlass_A.prefab
+  artifactKey: Guid(7e9dc500b042d594f976c40103e5aa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_Deco_WindowGlass_A.prefab using Guid(7e9dc500b042d594f976c40103e5aa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3fb67f277a842321ba64d4de6f0e0167') in 0.022641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_IntWall_A.prefab
+  artifactKey: Guid(32d75b8d1b966c6489dd7b9cea692094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_IntWall_A.prefab using Guid(32d75b8d1b966c6489dd7b9cea692094) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4ec7e8a791ed0019092cdecfa49b6b5c') in 0.069506 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Top_Cor_C.prefab
-  artifactKey: Guid(93f44a230fff05f449ae9010be89acff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Top_Cor_C.prefab using Guid(93f44a230fff05f449ae9010be89acff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '154741d4476fe6673148a5aea8021ea4') in 0.029075 seconds
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_Mid_A.prefab
+  artifactKey: Guid(a169505b1ca79d04e97789db788de88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_Mid_A.prefab using Guid(a169505b1ca79d04e97789db788de88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e11435a6b8ec83a1be5513acfe2314b1') in 0.066224 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_IntStairs_A.prefab
-  artifactKey: Guid(e21009e7dc5e8544c82d5fe2b089da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_IntStairs_A.prefab using Guid(e21009e7dc5e8544c82d5fe2b089da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '174f42dc15ae083dc6938e2b21ca6317') in 0.032813 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_End_B.prefab
+  artifactKey: Guid(60a191e2da86e1544948ebd2bc4c7a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/BrickHouse/BrickHouse_End_B.prefab using Guid(60a191e2da86e1544948ebd2bc4c7a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ad21ff3e421ca747d9d89cd57fe1d7af') in 0.068716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 13.478922 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn2_End_A.prefab
+  artifactKey: Guid(187cfe41b73208f4ca3c7033eb15603d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Barns/Barn2_End_A.prefab using Guid(187cfe41b73208f4ca3c7033eb15603d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '58332cbd705370f23cd93396f2c856ad') in 0.097614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 5.497908 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Structures1/Struct_Billboard_A_DM.prefab
+  artifactKey: Guid(17ad2d2220fb18a4ebe7d676a612bca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Structures1/Struct_Billboard_A_DM.prefab using Guid(17ad2d2220fb18a4ebe7d676a612bca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e77c5f9486e98f732ec6b37281ed98c3') in 0.083669 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Wall_Cor_B.prefab
-  artifactKey: Guid(26fea809091653d4c852426788e55284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Wall_Cor_B.prefab using Guid(26fea809091653d4c852426788e55284) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'ac824834b633cd06d9074519791d27ae') in 0.031156 seconds
+  Time since last request: 0.000041 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Structures1/Struct_Fence3_Mid_A.prefab
+  artifactKey: Guid(6c2bb458d4ac1614485f1c8ba5adb8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Structures1/Struct_Fence3_Mid_A.prefab using Guid(6c2bb458d4ac1614485f1c8ba5adb8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6519380fc582da6a835c63cf1220b14a') in 0.085578 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 34
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Floor_Mid_B.prefab
-  artifactKey: Guid(ee1b5b58c90552741b2e3276d8b5db74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Floor_Mid_B.prefab using Guid(ee1b5b58c90552741b2e3276d8b5db74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'c59576d48653411de669fbb7d7c079f9') in 0.029506 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Structures1/Struct_Docking_A_DM.prefab
+  artifactKey: Guid(13b1d2550a4cb4b429bb4d9463a0e915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Structures1/Struct_Docking_A_DM.prefab using Guid(13b1d2550a4cb4b429bb4d9463a0e915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '08290ba5c0a63f1b86b36392010c3032') in 0.076192 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Wall_Mid_A.prefab
-  artifactKey: Guid(31ecc7bdf20925d4bbe36dbb0637f6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Wall_Mid_A.prefab using Guid(31ecc7bdf20925d4bbe36dbb0637f6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '63fe28c1f7e92589da0e25d340b3c363') in 0.027854 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_Column_Base_A.prefab
-  artifactKey: Guid(afdad0efc675a5f4a88b20acb7b88dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_Column_Base_A.prefab using Guid(afdad0efc675a5f4a88b20acb7b88dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '923c4cd04697bf4f98a4ff9ff247770b') in 0.026859 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Wall_Mid_E.prefab
-  artifactKey: Guid(972aaba145b0af74a808d2d941ab913b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Wall_Mid_E.prefab using Guid(972aaba145b0af74a808d2d941ab913b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '43acd06f9733cb155bee2ba3e9ac4dc4') in 0.027851 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 32
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Base_Ext_A.prefab
-  artifactKey: Guid(58212b31b018cdb4d8b7ef95d6a1c5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Base_Ext_A.prefab using Guid(58212b31b018cdb4d8b7ef95d6a1c5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '9c5000c941701c1a4d54d87e8bb58f3c') in 0.032026 seconds
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Structures1/Struct_Fence1_Mid_C.prefab
+  artifactKey: Guid(953345a209e4fe7428046236259c9c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Structures1/Struct_Fence1_Mid_C.prefab using Guid(953345a209e4fe7428046236259c9c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e86d4741d078391877e661d6debabc64') in 0.085830 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 34
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Roof_Mid_A.prefab
-  artifactKey: Guid(02492b235225b7241a6610af36faa921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Roof_Mid_A.prefab using Guid(02492b235225b7241a6610af36faa921) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'eff8248b9d31d8cb4f349db0e46d2251') in 0.028185 seconds
+  Time since last request: 0.000041 seconds.
+  path: Assets/Flooded_Grounds/Prefabs/Buildings/Structures1/Struct_Docking_B.prefab
+  artifactKey: Guid(839d15f594053604a9e89b5145396cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Structures1/Struct_Docking_B.prefab using Guid(839d15f594053604a9e89b5145396cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '116660db621c79d692a6e03688d629ad') in 0.085195 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_Column_Mid_B.prefab
-  artifactKey: Guid(cd395b40de0957d4d9c85b8e623a07d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_Column_Mid_B.prefab using Guid(cd395b40de0957d4d9c85b8e623a07d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '6fc13dcebb7dfc04335006bf5a45ba7b') in 0.026172 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_Chimney_A.prefab
-  artifactKey: Guid(54baefad3b03c0e40bae826dce4c454e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Deco_Chimney_A.prefab using Guid(54baefad3b03c0e40bae826dce4c454e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '3067471f0112851262f6d771fb1832fd') in 0.031960 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Wall_Cor_A.prefab
-  artifactKey: Guid(3d6af86994b168f459350d61d340227e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Wall_Cor_A.prefab using Guid(3d6af86994b168f459350d61d340227e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '40dde5522b31e7ae05eb7407af217c13') in 0.029875 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Wall_Int_A.prefab
-  artifactKey: Guid(0a252d80add0348439615bc02e74781d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Buildings/Villa2/Villa2_Wall_Int_A.prefab using Guid(0a252d80add0348439615bc02e74781d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'f380d5313cba2249dd140aa973ff80d9') in 0.028059 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 32
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
