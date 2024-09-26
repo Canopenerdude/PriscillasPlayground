@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 467defd205c61bf4dba6a91b16c1a3b4
+  productGUID: c5c326e3d7032b14c9b276fcedca552a
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -754,11 +754,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: b28e188e-e69e-4c4c-8ace-8157c353084c
+  cloudProjectId: ef733ee9-54b8-416c-8277-74afb5e0b504
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: My project
-  organizationId: canopenerdood
+  projectName: My project 2024-09-25_16-05-25
+  organizationId: pseudo20
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
