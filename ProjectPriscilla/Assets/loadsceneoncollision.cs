@@ -17,9 +17,11 @@ public class loadsceneoncollision : MonoBehaviour
         
     }
 	
-	//On Collision with object, load new scene
+	//On Collision with unity object "FrontDoor", load new scene
 	void OnCollisionEnter(Collision collision)
 	{
-		SceneManager.LoadScene("BurnPile", LoadSceneMode.Single);
+		if(collision.gameObject.name == "FrontDoor")
+		 SceneManager.LoadScene("BurnPile", LoadSceneMode.Single);
+		
 	}	
 }
