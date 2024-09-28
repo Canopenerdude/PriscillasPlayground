@@ -22,6 +22,8 @@ public class FirstPersonMove : MonoBehaviour {
 	void Start()
 	{
 		anim = GetComponent<CharacterAnimation>(); // Get the animation script
+		Cursor.lockState = CursorLockMode.Locked;
+		
 	}
 	
 	// FixedUpdate is used for physics based movement
