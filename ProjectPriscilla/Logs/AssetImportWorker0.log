@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.37f1 (340ba89e4c23) revision 3410856'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Enterprise' Language: 'en' Physical Memory: 32486 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 7598 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity 2022.3.37f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/AJTeeple/ProjectPriscilla
+C:/Users/DJCat/Documents/GitHub/PriscillasPlayground/ProjectPriscilla
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59937
-Successfully changed project path to: C:/Users/AJTeeple/ProjectPriscilla
-C:/Users/AJTeeple/ProjectPriscilla
+62886
+Successfully changed project path to: C:/Users/DJCat/Documents/GitHub/PriscillasPlayground/ProjectPriscilla
+C:/Users/DJCat/Documents/GitHub/PriscillasPlayground/ProjectPriscilla
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,65 @@ C:/Users/AJTeeple/ProjectPriscilla
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [34468] Host "[IP] 172.18.51.26 [Port] 0 [Flags] 2 [Guid] 3591035661 [EditorId] 3591035661 [Version] 1048832 [Id] WindowsEditor(7,HSL315-17) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10644] Host "[IP] 10.2.98.131 [Port] 0 [Flags] 2 [Guid] 379515219 [EditorId] 379515219 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-2FK2RETO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [34468] Host "[IP] 172.18.51.26 [Port] 0 [Flags] 2 [Guid] 3591035661 [EditorId] 3591035661 [Version] 1048832 [Id] WindowsEditor(7,HSL315-17) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10644] Host "[IP] 10.2.98.131 [Port] 0 [Flags] 2 [Guid] 379515219 [EditorId] 379515219 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-2FK2RETO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-Refreshing native plugins compatible for Editor in 6.40 ms, found 3 plugins.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 41.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.37f1 (340ba89e4c23)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.37f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/AJTeeple/ProjectPriscilla/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/DJCat/Documents/GitHub/PriscillasPlayground/ProjectPriscilla/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
-    Vendor:   NVIDIA
-    VRAM:     10053 MB
-    Driver:   32.0.15.5612
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   ATI
+    VRAM:     3799 MB
+    Driver:   31.0.12014.6
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity 2022.3.37f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity 2022.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity 2022.3.37f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity 2022.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002463 seconds.
-- Loaded All Assemblies, in  0.189 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017796 seconds.
+- Loaded All Assemblies, in  1.092 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.146 seconds
-Domain Reload Profiling: 335ms
-	BeginReloadAssembly (62ms)
+- Finished resetting the current domain, in  1.073 seconds
+Domain Reload Profiling: 2160ms
+	BeginReloadAssembly (337ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (73ms)
-		LoadAssemblies (60ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (118ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (188ms)
+	LoadAllAssembliesAndSetupDomain (398ms)
+		LoadAssemblies (331ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (72ms)
-			TypeCache.Refresh (71ms)
-				TypeCache.ScanAssembly (64ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (147ms)
+		AnalyzeDomain (392ms)
+			TypeCache.Refresh (387ms)
+				TypeCache.ScanAssembly (351ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1075ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (116ms)
+		SetupLoadedEditorAssemblies (871ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (24ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (80ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (622ms)
+			ProcessInitializeOnLoadMethodAttributes (185ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 335ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.323 seconds
-Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.721 seconds
+Refreshing native plugins compatible for Editor in 12.35 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.324 seconds
-Domain Reload Profiling: 646ms
-	BeginReloadAssembly (78ms)
+- Finished resetting the current domain, in  2.492 seconds
+Domain Reload Profiling: 5210ms
+	BeginReloadAssembly (745ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (30ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (11ms)
-	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (198ms)
-		LoadAssemblies (154ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (155ms)
+	RebuildNativeTypeToScriptingClass (57ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (1656ms)
+		LoadAssemblies (1443ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (91ms)
-			TypeCache.Refresh (81ms)
-				TypeCache.ScanAssembly (73ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (324ms)
+		AnalyzeDomain (670ms)
+			TypeCache.Refresh (592ms)
+				TypeCache.ScanAssembly (542ms)
+			ScanForSourceGeneratedMonoScriptInfo (57ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2494ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (246ms)
+		SetupLoadedEditorAssemblies (1904ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (15ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (30ms)
-			ProcessInitializeOnLoadAttributes (194ms)
-			ProcessInitializeOnLoadMethodAttributes (12ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (252ms)
+			ProcessInitializeOnLoadAttributes (1517ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (16ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (17ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 10.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (57.7 KB). Loaded Objects now: 3555.
-Memory consumption went from 120.5 MB to 120.5 MB.
-Total: 1.922800 ms (FindLiveObjects: 0.131700 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.683900 ms  DeleteObjects: 0.070100 ms)
+Unloading 33 unused Assets / (57.6 KB). Loaded Objects now: 3555.
+Memory consumption went from 119.2 MB to 119.2 MB.
+Total: 10.766700 ms (FindLiveObjects: 1.081700 ms CreateObjectMapping: 1.010600 ms MarkObjects: 8.448100 ms  DeleteObjects: 0.223200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,28 +181,211 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1347020.604571 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(95a27c94d38c466438b311ab0b4a5b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(95a27c94d38c466438b311ab0b4a5b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '00c14317c984816d9ce1a81d286379a0') in 0.001798 seconds
+  Time since last request: 66494.574738 seconds.
+  path: Assets/Materials_Sydney/Hobby_Horse_Hair.mat
+  artifactKey: Guid(89775d3b3575f694abf9346088cf8ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Sydney/Hobby_Horse_Hair.mat using Guid(89775d3b3575f694abf9346088cf8ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6e9f6c1327feb6f7154325bf96ef9378') in 0.297825 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 2.661928 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '2418d44e161e3ce2e8daeaa5c00c20e4') in 0.000393 seconds
+  Time since last request: 15.367709 seconds.
+  path: Assets/Blender_Files/Burn_Pile.blend
+  artifactKey: Guid(6a26baad029844a428d6bc89a38d9c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender_Files/Burn_Pile.blend using Guid(6a26baad029844a428d6bc89a38d9c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '65c1a1df9a945babb86661f3a2aa6372') in 0.135425 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 5.642549 seconds.
-  path: Assets/Scenes/Scene1.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '9f092ba9c3cb401a3f0ab80aef9b8e7c') in 0.000346 seconds
+  Time since last request: 20.737596 seconds.
+  path: Assets/Prefabs_Sydney/Burn_Pile.prefab
+  artifactKey: Guid(e88fd8fe0c1860946960e975ab2a36ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_Sydney/Burn_Pile.prefab using Guid(e88fd8fe0c1860946960e975ab2a36ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '87f8c57e94f431532038073c9b9ca335') in 0.002098 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 20.052189 seconds.
+  path: Assets/Prefabs_Sydney/Burn_Pile.prefab
+  artifactKey: Guid(e88fd8fe0c1860946960e975ab2a36ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_Sydney/Burn_Pile.prefab using Guid(e88fd8fe0c1860946960e975ab2a36ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ca1927c710d3402cc3e2f1fb17675764') in 0.004590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 54.936697 seconds.
+  path: Assets/Prefabs_Sydney/Burn_Pile.prefab
+  artifactKey: Guid(e88fd8fe0c1860946960e975ab2a36ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_Sydney/Burn_Pile.prefab using Guid(e88fd8fe0c1860946960e975ab2a36ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3da2caea2ec317d4f704bcac6a486d9a') in 0.020441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 2.945397 seconds.
+  path: Assets/Prefabs_Sydney/Hobby_Horse.prefab
+  artifactKey: Guid(6301c23bf48b2a34da8fade4007ad03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_Sydney/Hobby_Horse.prefab using Guid(6301c23bf48b2a34da8fade4007ad03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0d7e33186a2a954a0509408cc0bb623e') in 0.013006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 186.444976 seconds.
+  path: Assets/Prefabs_Sydney/Hobby_Horse.prefab
+  artifactKey: Guid(6301c23bf48b2a34da8fade4007ad03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_Sydney/Hobby_Horse.prefab using Guid(6301c23bf48b2a34da8fade4007ad03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '84692da9b4715af4309df6ec3572c018') in 0.012900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 18.561433 seconds.
+  path: Assets/Prefabs_Sydney/Burn_Pile.prefab
+  artifactKey: Guid(e88fd8fe0c1860946960e975ab2a36ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_Sydney/Burn_Pile.prefab using Guid(e88fd8fe0c1860946960e975ab2a36ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '388bbdb39c64c912149f2a91b4a156f8') in 0.013555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 4.839700 seconds.
+  path: Assets/Materials_Sydney/Hobby_Horse_Eyes.mat
+  artifactKey: Guid(3b51ce3f196bc4945a1569db0c7b0207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Sydney/Hobby_Horse_Eyes.mat using Guid(3b51ce3f196bc4945a1569db0c7b0207) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '08a204f72420c5bbd54e1ac74482dfea') in 0.018425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 25.359753 seconds.
+  path: Assets/Materials_Sydney/Hobby_Horse_Stick.mat
+  artifactKey: Guid(85d58cba5717d0644a833d35bcdeab6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Sydney/Hobby_Horse_Stick.mat using Guid(85d58cba5717d0644a833d35bcdeab6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e771101cdc3f5871d92f1de73258d006') in 0.027623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 563.178555 seconds.
+  path: Assets/Materials_Sydney/BurnPilePlaceHolder.mat
+  artifactKey: Guid(11480476475560149bb96272c21a9b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Sydney/BurnPilePlaceHolder.mat using Guid(11480476475560149bb96272c21a9b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b54499b7e11de9c98e97844d70f29258') in 0.016812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.623572 seconds.
+  path: Assets/Materials_Sydney/HobbyHorseEyes.mat
+  artifactKey: Guid(3b51ce3f196bc4945a1569db0c7b0207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Sydney/HobbyHorseEyes.mat using Guid(3b51ce3f196bc4945a1569db0c7b0207) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5b1203c61df84dfadb9344f220f1827a') in 0.013539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.196925 seconds.
+  path: Assets/Materials_Sydney/HobbyHorseHair.mat
+  artifactKey: Guid(89775d3b3575f694abf9346088cf8ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Sydney/HobbyHorseHair.mat using Guid(89775d3b3575f694abf9346088cf8ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5022c3b299231d9fbbc687adcce54dc3') in 0.013825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.527565 seconds.
+  path: Assets/Materials_Sydney/HobbyHorseHead.mat
+  artifactKey: Guid(3a80326be807c564b874776e0f5c3860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Sydney/HobbyHorseHead.mat using Guid(3a80326be807c564b874776e0f5c3860) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a31790bfc95321d4621b89ad2b86bd8d') in 0.014509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.987603 seconds.
+  path: Assets/Materials_Sydney/HobbyHorseStick.mat
+  artifactKey: Guid(85d58cba5717d0644a833d35bcdeab6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials_Sydney/HobbyHorseStick.mat using Guid(85d58cba5717d0644a833d35bcdeab6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eb48480d19337b6cf9bbe8cf0ba0e67b') in 0.013432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 47.856502 seconds.
+  path: Assets/BlenderFilesSydney/BurnPileBlend.blend
+  artifactKey: Guid(6a26baad029844a428d6bc89a38d9c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderFilesSydney/BurnPileBlend.blend using Guid(6a26baad029844a428d6bc89a38d9c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8e3b62f4c0e36226e6a0e525089fa1c1') in 0.035117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 16.603544 seconds.
+  path: Assets/BlenderFilesSydney/HobbyHorseBlend.blend
+  artifactKey: Guid(e87cf107a2ded0848be00ce263b6f6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderFilesSydney/HobbyHorseBlend.blend using Guid(e87cf107a2ded0848be00ce263b6f6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '697e1f01215053e5be07217e089815b9') in 0.136665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 3.590894 seconds.
+  path: Assets/PrefabsSydney/Burn_Pile.prefab
+  artifactKey: Guid(e88fd8fe0c1860946960e975ab2a36ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsSydney/Burn_Pile.prefab using Guid(e88fd8fe0c1860946960e975ab2a36ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4cb1e444714359b78b7def360610c687') in 0.007475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 15.308683 seconds.
+  path: Assets/PrefabsSydney/HobbyHorsePrefab.prefab
+  artifactKey: Guid(6301c23bf48b2a34da8fade4007ad03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsSydney/HobbyHorsePrefab.prefab using Guid(6301c23bf48b2a34da8fade4007ad03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aee05c658cac87326577b09ad917f665') in 0.015000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 9.160653 seconds.
+  path: Assets/PrefabsSydney/BurnPilePrefab.prefab
+  artifactKey: Guid(e88fd8fe0c1860946960e975ab2a36ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsSydney/BurnPilePrefab.prefab using Guid(e88fd8fe0c1860946960e975ab2a36ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '024031d2763a3bb51cd86bf44d4f4d24') in 0.019821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
