@@ -33,7 +33,7 @@ public class FirstPersonMove : MonoBehaviour {
 		float vertical = Input.GetAxis("Vertical"); // set a float to control vertical input
         MouseLook(); // Call the player look function which controls the mouse
 		PlayerMove(horizontal,vertical); // Call the move player function sending horizontal and vertical movements
-		Jump(); // Call the Jump function! Woot!
+		//Jump(); // Call the Jump function! Woot!
 	}
 	
 	private void MouseLook()
@@ -67,16 +67,16 @@ public class FirstPersonMove : MonoBehaviour {
 		}
 	}
 	
-	private void Jump()
-	{
-		if(Input.GetKeyDown(KeyCode.Space)) // If the Space bar is pressed down then continue
-		{
-			if(IsGrounded()) // If the player is grounded, this calls a boolean, then continue
-			{
-				GetComponent<Rigidbody>().velocity += 5f * Vector3.up; // add velocity to the player on vector UP
-			}
-		}
-	}
+	//private void Jump()
+	//{
+	//	if(Input.GetKeyDown(KeyCode.Space)) // If the Space bar is pressed down then continue
+	//	{
+	//		if(IsGrounded()) // If the player is grounded, this calls a boolean, then continue
+	//		{
+	//			GetComponent<Rigidbody>().velocity += 5f * Vector3.up; // add velocity to the player on vector UP
+	//		}
+	//	}
+	//}
 	
 	private bool IsGrounded()
 	{
