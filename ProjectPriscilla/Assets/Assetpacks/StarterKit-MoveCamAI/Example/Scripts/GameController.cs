@@ -116,10 +116,11 @@ namespace StarterKitMCA {
 			CameraSelection();
 			MovementSelection();
 			SpawnAi();
-			FPSMode();
+			// FPSMode();
 		}
-		
-		void FPSMode()
+
+        [System.Obsolete]
+        void FPSMode()
 		{
 			if(fpsMode)
 			{
