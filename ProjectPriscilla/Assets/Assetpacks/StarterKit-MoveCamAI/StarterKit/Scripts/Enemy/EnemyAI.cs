@@ -22,7 +22,7 @@ public class EnemyAI : MonoBehaviour {
 						enemyLayer = (1 << 9),
 						playerLayer = (1 << 8);
 	
-	private float speed = 8f;
+	private float speed = 4f;
 
 	// AI wall avoidance variables
 	private float   avoidDist = 2f,
