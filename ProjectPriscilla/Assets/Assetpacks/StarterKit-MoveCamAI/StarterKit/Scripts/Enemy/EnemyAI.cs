@@ -38,7 +38,7 @@ public class EnemyAI : MonoBehaviour {
 	// FixedUpdate is used for physics based movement
 	void FixedUpdate ()
 	{
-		EnemyVision(); // Call the enemey vision function
+		//EnemyVision(); // Call the enemey vision function
 		EnemyMove(); // Call the enemy movement function
 		EnemyAvoid(); // Call the enemy avoidance function
 	}
