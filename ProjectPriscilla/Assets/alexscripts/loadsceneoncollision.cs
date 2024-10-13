@@ -21,7 +21,8 @@ public class loadsceneoncollision : MonoBehaviour
 	void OnCollisionEnter(Collision collision)
 	{
 		if(collision.gameObject.name == "FrontDoor")
-		 SceneManager.LoadScene("BurnPile", LoadSceneMode.Single);
-		
+        {
+		 SceneManager.LoadScene("Shaq", LoadSceneMode.Single);
+        }
 	}	
 }

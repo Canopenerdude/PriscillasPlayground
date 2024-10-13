@@ -15,6 +15,11 @@ EditorBuildSettings:
     path: Assets/Scenes/BurnPile.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+<<<<<<< HEAD
+    path: Assets/Scenes/Shaq.unity
+    guid: 98a26ac277d841142a2f77d11fb4091a
+=======
     path: Assets/Scenes/Crawl.unity
     guid: e4eec82753980614b96c2a2159cf0288
+>>>>>>> 001c135a957429552bff7d37931adadcc435f822
   m_configObjects: {}
