@@ -1282,7 +1282,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Hole: {fileID: 1227346969}
   m_Activate: 0
-  waitTime: 60
+  waitTime: 40
   Timer: 0
 --- !u!4 &1136903209
 Transform:

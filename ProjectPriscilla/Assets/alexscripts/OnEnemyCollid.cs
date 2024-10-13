@@ -20,7 +20,7 @@ public class OnEnemyCollid : MonoBehaviour
 	{
 		if(collision.gameObject.name == "Enemy")
         {
-		 SceneManager.LoadScene("Shaq", LoadSceneMode.Single);
+		 SceneManager.LoadScene("HouseUpperFloor", LoadSceneMode.Single);
         }
 	}
 }
