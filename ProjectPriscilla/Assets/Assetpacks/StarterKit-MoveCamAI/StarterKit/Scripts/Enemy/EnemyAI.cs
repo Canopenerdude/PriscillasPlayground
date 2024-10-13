@@ -60,21 +60,16 @@ public class EnemyAI : MonoBehaviour {
 		}
 	}
 	
-	void EnemyMove()//(Collision collision)
+	void EnemyMove()
 	{
 		if(playerSpotted) // If the player has been spotted then continue
 		{
-			if(Vector3.Distance(transform.position,player.position) > 2) // If the distance from the player is greater than a number then continue
+			if(Vector3.Distance(transform.position,player.position) > 1) // If the distance from the player is greater than a number then continue
 			{
 				EnemyRotate(player.position); // Calls the rotate function sending the players position
 				GetComponent<Rigidbody>().MovePosition(Vector3.MoveTowards(transform.position, player.position, Time.deltaTime * speed)); // Move the enemy towards the players position
 				anim._animRun = true; // Enable the run animation
 			}
-			// else if (collision.gameObject.name == "Cabin2_Stairs")
-			//{
-			//	anim._animRun = false;
-			//}
-
 			else 	// If the distance from the player is not greater than a number then continue
 			{
 				anim._animRun = false; // Disable the run animation
@@ -166,8 +161,15 @@ public class EnemyAI : MonoBehaviour {
 		}
 		return closestPosition; // Return the closestPosition game object that was found
 	}
+
+	void OnCollisionEnter(Collision collision)
+	{
+		if(collision.gameObject.name == "Cabin2_Stairs")
+		{
+			playerSpotted = false;
+		}
+	}
+
+	
 }
 
-internal class collision
-{
-}
