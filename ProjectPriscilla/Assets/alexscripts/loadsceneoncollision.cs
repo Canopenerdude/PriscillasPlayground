@@ -22,7 +22,7 @@ public class loadsceneoncollision : MonoBehaviour
 	{
 		if(collision.gameObject.name == "FrontDoor")
         {
-		 SceneManager.LoadScene("BurnPile", LoadSceneMode.Single);
+		 SceneManager.LoadScene("Shaq", LoadSceneMode.Single);
         }
 	}	
 }

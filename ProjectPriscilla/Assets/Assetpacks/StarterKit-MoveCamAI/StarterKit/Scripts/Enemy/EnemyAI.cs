@@ -6,6 +6,7 @@
 
 using UnityEngine;
 using System.Collections;
+using System;
 
 public class EnemyAI : MonoBehaviour {
 
@@ -59,7 +60,7 @@ public class EnemyAI : MonoBehaviour {
 		}
 	}
 	
-	void EnemyMove()
+	void EnemyMove()//(Collision collision)
 	{
 		if(playerSpotted) // If the player has been spotted then continue
 		{
@@ -69,6 +70,11 @@ public class EnemyAI : MonoBehaviour {
 				GetComponent<Rigidbody>().MovePosition(Vector3.MoveTowards(transform.position, player.position, Time.deltaTime * speed)); // Move the enemy towards the players position
 				anim._animRun = true; // Enable the run animation
 			}
+			// else if (collision.gameObject.name == "Cabin2_Stairs")
+			//{
+			//	anim._animRun = false;
+			//}
+
 			else 	// If the distance from the player is not greater than a number then continue
 			{
 				anim._animRun = false; // Disable the run animation
@@ -160,4 +166,8 @@ public class EnemyAI : MonoBehaviour {
 		}
 		return closestPosition; // Return the closestPosition game object that was found
 	}
+}
+
+internal class collision
+{
 }
