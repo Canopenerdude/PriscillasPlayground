@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 143563fd53542dd4ebd752c047fa90a5
+  - enabled: 1
+    path: Assets/Scenes/HouseUpperFloor.unity
+    guid: af93988962e83e7419506477cfcadbcf
+  - enabled: 1
+    path: Assets/Scenes/Shaq.unity
+    guid: 98a26ac277d841142a2f77d11fb4091a
+  - enabled: 1
+    path: Assets/Scenes/Crawl.unity
+    guid: e4eec82753980614b96c2a2159cf0288
+  - enabled: 1
+    path: Assets/Scenes/BurnPile.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: ac9436a269208a342901bca33feb4315
   m_configObjects: {}

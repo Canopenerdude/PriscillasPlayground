@@ -12,7 +12,7 @@ public class FirstPersonMove : MonoBehaviour {
 					sensitivity = 10.0f;
 	
 	// Speed variables
-	private float   speed = 10f,
+	public float   speed = 10f,
 	 				speedHalved = 7.5f,
 	 				speedOrigin = 10f;
 	

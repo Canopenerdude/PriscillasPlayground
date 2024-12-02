@@ -21,7 +21,7 @@ public class leaveshaq : MonoBehaviour
 	void OnCollisionEnter(Collision collision)
 	{
 		if(collision.gameObject.name == "Hole")
-		 SceneManager.LoadScene("BurnPile", LoadSceneMode.Single);
+		 SceneManager.LoadScene("Crawl", LoadSceneMode.Single);
 		
 	}	
 }
