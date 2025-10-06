@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class loadsceneoncollision : MonoBehaviour
 {
+	int score = 0
     // Start is called before the first frame update
     void Start()
     {
@@ -20,9 +21,12 @@ public class loadsceneoncollision : MonoBehaviour
 	//On Collision with unity object "FrontDoor", load new scene
 	void OnCollisionEnter(Collision collision)
 	{
-		if(collision.gameObject.name == "FrontDoor")
+		if(collision.gameObject.name == "Collectible")
         {
-		 SceneManager.LoadScene("Shaq", LoadSceneMode.Single);
+			Destroy("Collectible");
+			score += ;
+			Console.WriteLine("Score is " score);
+
         }
 	}	
 }
